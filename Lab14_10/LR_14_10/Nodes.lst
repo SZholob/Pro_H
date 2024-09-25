@@ -1,0 +1,6 @@
+CONFIGURATION	2	Conf_hidic		HIDIC
+RESOURCE	3	Res			Micro_23
+TASKDIR	4	Tasks		HIDIC	Micro_23
+TASK	5	Lr14Z10		HIDIC	Micro_23
+PROGRAM	6	Lab14	Lab1410	HIDIC	Micro_23
+VAR_GLOBALS	4	Global_Variables	C\Conf_hidic\R\Res\Global_Variables.VB		

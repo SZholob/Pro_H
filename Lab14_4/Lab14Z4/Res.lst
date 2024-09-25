@@ -1,0 +1,12 @@
+(*
+NC: 1
+NR: 1
+NTC: 1
+NTR: 1
+*)
+PROC	CONFIGURATION	Conf_hidic	HIDIC	1
+C\Conf_hidic
+PROC	RESOURCE	Res	Micro_23
+C\Conf_hidic\R\Res
+	VAR_GLOBAL	Global_Variables
+C\Conf_hidic\R\Res\Global_Variables.VB

@@ -1,0 +1,554 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; シンボル定義ファイル  Ver 0.01  新規作成 1999.03.03  K.Ito    ;
+;;                       Ver 0.02  変更     1999.03.24  FUJIHIRA ;
+;;                       Ver 0.03  変更     1999.03.24  FUJIHIRA ;
+;;                       Ver 0.04  変更     1999.03.30  FUJIHIRA ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Ａ接点定義
+BEGIN CONTACT_R
+  CODE 2 1           ; -||- R
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN CONTACT_L
+  CODE 2 2           ; -||- L
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN CONTACT_M
+  CODE 2 3           ; -||- M
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN CONTACT_Y
+  CODE 2 4           ; -||- Y
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN CONTACT_X
+  CODE 2 5           ; -||- X
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+BEGIN CONTACT_TD
+  CODE 2 6           ; -||- TD
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN CONTACT_SS
+  CODE 2 7           ; -||- SS
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN CONTACT_WDT
+  CODE 2 8           ; -||- WDT
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN CONTACT_MS
+  CODE 2 9           ; -||- MS
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN CONTACT_TMR
+  CODE 2 10          ; -||- TMR
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN CONTACT_CU
+  CODE 2 11          ; -||- CU
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN CONTACT_RCU
+  CODE 2 12          ; -||- RCU
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN CONTACT_CTU_D
+  CODE 2 13          ; -||- CTU_D
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Ｂ接点定義
+BEGIN CONTACT_R
+  CODE 3 1           ; -|/|- R
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN CONTACT_L
+  CODE 3 2           ; -|/|- L
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN CONTACT_M
+  CODE 3 3           ; -|/|- M
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN CONTACT_Y
+  CODE 3 4           ; -|/|- Y
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN CONTACT_X
+  CODE 3 5           ; -|/|- X
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+BEGIN CONTACT_TD
+  CODE 3 6           ; -|/|- TD
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN CONTACT_SS
+  CODE 3 7           ; -|/|- SS
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN CONTACT_WDT
+  CODE 3 8           ; -|/|- WDT
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN CONTACT_MS
+  CODE 3 9           ; -|/|- MS
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN CONTACT_TMR
+  CODE 3 10          ; -|/|- TMR
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN CONTACT_CU
+  CODE 3 11          ; -|/|- CU
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN CONTACT_RCU
+  CODE 3 12          ; -|/|- RCU
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN CONTACT_CTU_D
+  CODE 3 13          ; -|/|- CTU_D
+  TYPE 0             ; Contact
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; DIF / DFN
+BEGIN DIF
+  CODE 14 14
+  TYPE 0
+  SIZE 8 8
+  INPIN  -2 +4 0   CLK   ;主入力
+  OUTPIN +10 +4 0  Q  ;主出力
+END
+BEGIN DFN
+  CODE 15 15
+  TYPE 0
+  SIZE 8 8
+  INPIN  -2 +4 0   CLK   ;主入力
+  OUTPIN +10 +4 0  Q  ;主出力
+END
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; 通常コイル
+BEGIN COIL_R
+  CODE 5 1           ; -()- R
+  TYPE 1             ; Coil
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN COIL_L
+  CODE 5 2           ; -()- L
+  TYPE 1             ; Coil
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN COIL_M
+  CODE 5 3           ; -()- M
+  TYPE 1             ; Coil
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN COIL_Y
+  CODE 5 4           ; -()- Y
+  TYPE 1             ; Coil
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN COIL_X
+  CODE 5 5           ; -()- X
+  TYPE 1             ; Coil
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; セットコイル
+BEGIN COIL_SET
+  CODE 6 1          ; -(S)- R
+  TYPE 1             ; Coil
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN COIL_L
+  CODE 6 2           ; -(S)- L
+  TYPE 1             ; Coil
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN COIL_M
+  CODE 6 3           ; -(S)- M
+  TYPE 1             ; Coil
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN COIL_Y
+  CODE 6 4           ; -(S)- Y
+  TYPE 1             ; Coil
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN COIL_X
+  CODE 6 5           ; -(S)- X
+  TYPE 1             ; Coil
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; リセットコイル
+BEGIN COIL_RS
+  CODE 7 1          ; -(R)- R
+  TYPE 1             ; Coil
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN COIL_L
+  CODE 7 2           ; -(R)- L
+  TYPE 1             ; Coil
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN COIL_M
+  CODE 7 3           ; -(R)- M
+  TYPE 1             ; Coil
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN COIL_Y
+  CODE 7 4           ; -(R)- Y
+  TYPE 1             ; Coil
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+BEGIN COIL_X
+  CODE 7 5           ; -(R)- X
+  TYPE 1             ; Coil
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; クリアコイル
+BEGIN COIL_CL
+  CODE 5 18          ; -()- CL
+  TYPE 1             ; Coil
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;  NOT
+BEGIN NOT
+  CODE  4  0
+  TYPE 1             ; Function
+  SIZE 10 12
+  INPIN  -2 +4 4   EN    ;EN
+  INPIN  -2 +8 0   IN1   ;主入力
+  OUTPIN +12 +4 5  ENO   ;ENO
+  OUTPIN +12 +8 0  NOT   ;主出力
+END
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+BEGIN ORi_COIL                     ;折り返しコイル
+  CODE 13 0
+  TYPE 1
+  SIZE 0 0
+  INPIN  0 0 0 DUMMY ;
+  OUTPIN 0 0 0 DUMMY ;
+END
+BEGIN ORi_CON                      ;折り返し接点
+  CODE 12 0
+  TYPE 0
+  SIZE 0 0
+  INPIN  0 0 0 DUMMY ;
+  OUTPIN 0 0 0 DUMMY ;
+END
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; 比較ボックス定義
+BEGIN EQ
+  CODE 16 24
+  TYPE 0             ; Function Block
+  SIZE 10 16
+  INPIN  -2 +4 0   IN    ;主入力
+  INPIN  -2 +8 6   IN1   ;比較1
+  INPIN  -2 +12 7   IN2   ;比較2
+  OUTPIN +12 +4 0  Q     ;主出力
+END
+BEGIN SEQ
+  CODE 16 25
+  TYPE 0             ; Function Block
+  SIZE 8 16
+  INPIN  -2 +4 0   IN     ;主入力
+  INPIN  -2 +8 6   IN1   ;比較1
+  INPIN  -2 +12 7   IN2   ;比較2
+  OUTPIN +10 +4 0  Q     ;主出力
+END
+BEGIN NE
+  CODE 16 26
+  TYPE 0             ; Function Block
+  SIZE 10 16
+  INPIN  -2 +4 0   IN    ;主入力
+  INPIN  -2 +8 6   IN1   ;比較1
+  INPIN  -2 +12 7   IN2   ;比較2
+  OUTPIN +12 +4 0  Q     ;主出力
+END
+BEGIN SNE
+  CODE 16 27
+  TYPE 0             ; Function Block
+  SIZE 8 16
+  INPIN  -2 +4 0   IN    ;主入力
+  INPIN  -2 +8 6   IN1   ;比較1
+  INPIN  -2 +12 7   IN2   ;比較2
+  OUTPIN +10 +4 0  Q     ;主出力
+END
+BEGIN LT
+  CODE 16 28
+  TYPE 0             ; Function Block
+  SIZE 10 16
+  INPIN  -2 +4 0   IN    ;主入力
+  INPIN  -2 +8 6   IN1   ;比較1
+  INPIN  -2 +12 7   IN2   ;比較2
+  OUTPIN +12 +4 0  Q     ;主出力
+END
+BEGIN SLT
+  CODE 16 29
+  TYPE 0             ; Function Block
+  SIZE 8 16
+  INPIN  -2 +4 0   IN    ;主入力
+  INPIN  -2 +8 6   IN1   ;比較1
+  INPIN  -2 +12 7   IN2   ;比較2
+  OUTPIN +10 +4 0  Q     ;主出力
+END
+BEGIN LE
+  CODE 16 30
+  TYPE 0             ; Function Block
+  SIZE 10 16
+  INPIN  -2 +4 0   IN    ;主入力
+  INPIN  -2 +8 6   IN1   ;比較1
+  INPIN  -2 +12 7   IN2   ;比較2
+  OUTPIN +12 +4 0  Q     ;主出力
+END
+BEGIN SLE
+  CODE 16 31
+  TYPE 0             ; Function Block
+  SIZE 8 16
+  INPIN  -2 +4 0   IN    ;主入力
+  INPIN  -2 +8 6   IN1   ;比較1
+  INPIN  -2 +12 7   IN2   ;比較2
+  OUTPIN +10 +4 0  Q     ;主出力
+END
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; マスタコントロール セット／リセット
+BEGIN MCS
+  CODE 10 0
+  TYPE 0             ; Function Block
+  SIZE 8 12
+  INPIN  -2 +4 0   IN    ;主入力
+  INPIN  -2 +8 9   N     ;     
+  OUTPIN +10 +4 0  Q  ;主出力
+END
+BEGIN MCS
+  CODE 10 138
+  TYPE 0             ; Function Block
+  SIZE 8 12
+  INPIN  -2 +4 0   IN    ;主入力
+  INPIN  -2 +8 9   N     ;     
+  OUTPIN +10 +4 0  Q  ;主出力
+END
+BEGIN MCR
+  CODE 11 0
+  TYPE 0             ; Function Block
+  SIZE 8 12
+  INPIN  -2 +4 0   IN    ;主入力
+  INPIN  -2 +8 9   N     ;     
+  OUTPIN +10 +4 0  Q  ;主出力
+END
+BEGIN MCR
+  CODE 11 139
+  TYPE 0             ; Function Block
+  SIZE 8 12
+  INPIN  -2 +4 0   IN    ;主入力
+  INPIN  -2 +8 9   N     ;     
+  OUTPIN +10 +4 0  Q  ;主出力
+END
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
+;; タイマカウンタ定義
+BEGIN  TD
+  CODE 8  6
+  TYPE 0             ; Function BLOCK
+  SIZE 8 12
+  INPIN   -2  +4 0   IN ;主入力
+  INPIN   -2  +8 1   PT ;設定値
+  OUTPIN  +10 +4 0   Q  ;主出力
+  OUTPIN  +10 +8 2   ET ;経過値
+END
+BEGIN  SS
+  CODE  8  7
+  TYPE 0               ; Function BLOCK
+  SIZE 8 12
+  INPIN   -2  +4 0  IN ;主入力
+  INPIN   -2  +8 1  PT ;設定値
+  OUTPIN  +10 +4 0  Q  ;主出力
+  OUTPIN  +10 +8 2  ET ;経過値
+END
+BEGIN  WDT
+  CODE  8  8
+  TYPE 0               ; Function BLOCK
+  SIZE 9 20
+  INPIN   -2  +4 0  IN ;主入力
+  INPIN   -2  +8 3  CL ;クリア
+  INPIN   -2  +12 1  PT1 ;設定値1
+  INPIN   -2  +16 8  PT2 ;設定値2
+  OUTPIN  +11 +4 0  Q  ;主出力
+  OUTPIN  +11 +8 2  ET ;経過値
+END
+BEGIN  MS
+  CODE  8  9
+  TYPE 0               ; Function BLOCK
+  SIZE 8 12
+  INPIN   -2  +4 0  IN ;主入力
+  INPIN   -2  +8 1  PT ;設定値1
+  OUTPIN  +10 +4 0  Q  ;主出力
+  OUTPIN  +10 +8 2  ET ;経過値
+END
+BEGIN  TMR
+  CODE  8  10
+  TYPE 0               ; Function BLOCK
+  SIZE 9 16
+  INPIN   -2  +4 0  IN ;主入力
+  INPIN   -2  +8 3  CL ;クリア
+  INPIN   -2  +12 1  PT ;設定値1
+  OUTPIN  +11 +4 0  Q  ;主出力
+  OUTPIN  +11 +8 2  ET ;経過値
+END
+BEGIN  CU
+  CODE  9  11
+  TYPE 0               ; Function BLOCK
+  SIZE 9 16
+  INPIN   -2  +4 0  CU ;主入力
+  INPIN   -2  +8 3  CL ;クリア
+  INPIN   -2  +12 1  PV ;設定値1
+  OUTPIN  +11 +4 0  Q  ;主出力
+  OUTPIN  +11 +8 2  CV ;経過値
+END
+BEGIN  RCU
+  CODE  9  12
+  TYPE 0               ; Function BLOCK
+  SIZE 9 16
+  INPIN   -2  +4 0  CU ;主入力
+  INPIN   -2  +8 3  CL ;クリア
+  INPIN   -2  +12 1  PV ;設定値1
+  OUTPIN  +11 +4 0  Q  ;主出力
+  OUTPIN  +11 +8 2  CV ;経過値
+END
+BEGIN  CTU_D
+  CODE  9  16
+  TYPE 0               ; Function BLOCK
+  SIZE 9 20
+  INPIN   -2  +4 0  CU ;主入力
+  INPIN   -2  +8 10 CD ;ｶｳﾝﾄﾀﾞｳﾝ
+  INPIN   -2  +12 3  CL ;クリア
+  INPIN   -2  +16 1  PV ;設定値1
+  OUTPIN  +11 +4 0  Q  ;主出力
+  OUTPIN  +11 +8 2  CV ;経過値
+END
+BEGIN CTD
+  CODE 9 17          ; -(R)- X
+  TYPE 1             ; Coil
+  SIZE 3 2
+  INPIN  -6 +1 0  IN1
+  OUTPIN +9 +1 0  OUT1
+END
+

@@ -1,0 +1,39 @@
+(*
+T: FUNCTION_BLOCK TD_1
+FW: YES
+CI#: 2
+QSL: 0
+QVE: 5
+QPar: 4
+QFBI: 0
+*)
+
+IN	1	VAR_INPUT	@TYP:1	
+	
+
+;
+PFW:
+
+PT	2	VAR_INPUT	@TYP:7	
+	
+
+;
+PFW:
+
+Q	3	VAR_OUTPUT	@TYP:1	
+	
+
+;
+PFW:
+
+ET	4	VAR_OUTPUT	@TYP:7	
+	
+
+;
+PFW:
+
+TD_1	5	VAR	@TYP:1	
+HTC TIMERTYPE_C 3 81
+
+;
+PFW:
